@@ -1,3 +1,4 @@
+--Created by Vertabelo
 CREATE TABLE Conference
 (
    ConferenceID     int           NOT NULL PRIMARY KEY IDENTITY (1,1),
