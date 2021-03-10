@@ -1432,7 +1432,7 @@ GO
 
 -- TRIGGERY
 
-/* sprawdza czy nie zarejestrowano wiêcej osób ni¿ zadeklarowano*/
+/* sprawdza czy nie zarejestrowano wiÄ™cej osÃ³b niÅ¼ zadeklarowano */
 GO
 create trigger CheckReservedSeats_ConferenceDayReservations
    on ConferenceDayReservations
@@ -1460,7 +1460,7 @@ GO
 
 
 
-/* sprawdza czy nie zosta³a przekroczona iloœæ mniejsc na nady warsztat*/
+/* sprawdza czy nie zostaÅ‚a przekroczona iloÅ›Ä‡ mniejsc na dany warsztat */
 GO
 create trigger CheckReservedSeats_WorkshopReservations
    on WorkshopReservations
@@ -1489,7 +1489,7 @@ GO
 
 
 
-/* aktualizuje studentow*/
+/* aktualizuje studentÃ³w */
 GO
 create trigger UpdateNumberOfStudents
    on ConferenceDayReservations
@@ -1513,7 +1513,7 @@ GO
 
 
 
-/* sprawdza czy osoba jest zapisana tylko na jeden warsztat w danym czasie i czy jest zapisana na dan¹ konferencje*/
+/* sprawdza czy osoba jest zapisana tylko na jeden warsztat w danym czasie i czy jest zapisana na danÄ… konferencjÄ™ */
 GO
 create trigger CheckWorkshopParticipants
     on WorkshopParticipants
